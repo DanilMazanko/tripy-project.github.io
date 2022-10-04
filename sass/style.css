@@ -512,4 +512,7 @@ a {
   .hidden {
     display: none;
   }
+  .calendar-icon, .locaion-icon {
+    width: 18px;
+  }
 }/*# sourceMappingURL=style.css.map */
