@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="sass/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- FIRST SECTION -->
+    <section class="nav-section">
+      <div class="nav-section-full">
+        <div class="container nav-section__nav-container">
+          <!-- NAVIGAION -->
+          <header class="nav-section__header">
+            <a class='logo' href="#"><img src="icons/logo.svg" alt="logo"></a>
+          </header>
+          <nav class="nav-section__nav nav-menu">
+            <ul class="nav-menu__list">
+              <li class="nav-menu__list-item">Home</li>
+              <li class="nav-menu__list-item">About</li>
+              <li class="nav-menu__list-item">Services</li>
+              <li class="nav-menu__list-item">Price</li>
+              <li class="nav-menu__list-item">Contact</li>
+            </ul>
+          </nav>
+          <div class="nav-section__login-btns">
+            <a class="nav-section__log-in" href="#">Login</a>
+            <button class="nav-section__register">Register</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="container hero-container">
+        <!-- LEFT WRAPPER -->
+        <div class="left-wrapper">
+          <h1>Dare to live the life you've always wanted.</h1>
+          <p class="left-wrapper__hero-text">Life is short and the world is wide. So, better get started.</p>
+          <div class="left-wrapper__search-box search-box">
+            <!-- SEARCH BOXES -->
+            <div class="search-box__location">
+              <img src="icons/location.svg" alt="icon">
+              <div class="search-box__choice-rihgt">
+                <div class="search-box__choice-rihgt-header">
+                  <p class="search-box__title text-grey">Location</p>
+                  <img src="icons/arrow-down.jpg" alt="icon">
+                </div>
+                <p class='search-box__location-city text-bold'>Allentown, New Mexico</p>
+              </div>
+            </div>
+             <!-- LINE -->
+             <div class="search-box__line"></div>
+             <!-- DATE -->
+             <div class="search-box__location">
+              <img src="icons/calendar-2.svg" alt="icon">
+              <div class="search-box__choice-rihgt">
+                <div class="search-box__choice-rihgt-header">
+                  <p class="search-box__title text-grey">Date</p>
+                  <img src="icons/arrow-down.jpg" alt="icon">
+                </div>
+                <p class='search-box__location-city text-bold'>04 Aug, 2022</p>
+              </div>
+              <!-- SEARCH BTN -->
+              <button class="search-box__btn">
+                <img src="icons/search-normal.svg" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- RIGHT WRAPPER -->
+        <div class="right-wrapper">
+          <img class='hero-img' src="img/hero-images.png" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT PLACES -->
+    <section class="about">
+      <div class="container container__about">
+        <img class="container__about_img" src="img/about.png" alt="">
+        <div class="container__about_info">
+          <p class="container__about-upper-text upper-text">About us</p>
+          <h2>Our tour plan is to fulfil your dream wish</h2>
+          <p class="container__about_discription">Understand to achieve anything requires 
+            faith and belief in yourself, vision, hard work, 
+            determination, and dedication.
+          </p>
+          <div class="container__about_numbers-info">
+            <div class="container__about_numbers-info-item">
+              <p class="number">15</p>
+              <p class="number-info">Years of Experience</p>
+            </div>
+            <div class="container__about_numbers-info-item">
+              <p class="number">1k</p>
+              <p class="number-info">Sucessful Trips</p>
+            </div>
+            <div class="container__about_numbers-info-item">
+              <p class="number">20k</p>
+              <p class="number-info">Happy Customers</p>
+            </div>
+            <div class="container__about_numbers-info-item">
+              <p class="number">4.9</p>
+              <p class="number-info">Overall<br>rating</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PLACES SECTION *** -->
+    <section class="places">
+      <div class="container container__places">
+        <div class=" container__places-titles">
+          <!-- PLACES TITLE -->
+          <div class="container__places-title">
+            <p class="container__about-upper-text upper-text">Tour Packages</p>
+            <h2 class="places__title">The amazing places around the world</h2>
+          </div>
+          <!-- ARROW BTNS -->
+          <div class="container__places-btns">
+            <button class="left-arrow"><img src="icons/arrow-left.svg" alt="icon"></button>
+            <button class="right-arrow"><img src="icons/arrow-right.svg" alt="icon"></button>
+          </div>
+        </div>
+         <!-- CARDS -->
+      <div class="container__places-cards">
+        <!-- CARD ITEM -->
+        <div class="container__places-cards-item">
+          <img class="place-card-img" src="img/card.png" alt="">
+          <div class="container__places-cards-item-text">
+            <h3>Fall in love among the winding streets and snow-covered</h3>
+            <p class="country-card">Prague, Czechia</p>
+            <!-- RATING -->
+            <div class="rating-card">
+              <img src="icons/magic-star.svg" alt="">
+              <p class="rating-number">4.9</p>
+            </div>
+            <!-- PRICE CARD -->
+            <div class="container__places-cards-price">
+              <p class="price">$200</p>
+              <p class="days">10 days tour</p>
+            </div>
+          </div>
+        </div>
+        <!-- CARD ITEM -->
+        <div class="container__places-cards-item">
+          <img class="place-card-img" src="img/card2.png" alt="">
+          <div class="container__places-cards-item-text">
+            <h3>History is not about the past but a map of the past</h3>
+            <p class="country-card">Beijing, China</p>
+            <!-- RATING -->
+            <div class="rating-card">
+              <img src="icons/magic-star.svg" alt="">
+              <p class="rating-number">4.9</p>
+            </div>
+            <!-- PRICE CARD -->
+            <div class="container__places-cards-price">
+              <p class="price">$450</p>
+              <p class="days">5 days tour</p>
+            </div>
+          </div>
+        </div>
+        <!-- CARD ITEM -->
+        <div class="container__places-cards-item">
+          <img class="place-card-img" src="img/card3.png" alt="">
+          <div class="container__places-cards-item-text">
+            <h3>The unique character as a symbol of taste and ostentation</h3>
+            <p class="country-card">İstanbul, Turkey</p>
+            <!-- RATING -->
+            <div class="rating-card">
+              <img src="icons/magic-star.svg" alt="">
+              <p class="rating-number">4.9</p>
+            </div>
+            <!-- PRICE CARD -->
+            <div class="container__places-cards-price">
+              <p class="price">$150</p>
+              <p class="days">7 days tour</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial">
+      <div class="container testimonial__container">
+        <div class="testimonial__titles">
+          <p class="upper-text">Testimonial</p>
+          <h2 class="testimonial__title">Satisfied travellers around the world</h2>
+        </div>
+        <div class="testimonial__items">
+          <button class="left-arrow"><img src="icons/arrow-left.svg" alt="icon"></button>
+          <!-- TESTIMONIAL ITEM I -->
+          <div class="testimonial__item">
+            <img class="testimonial__item-photo" src="img/testimonial-profile-pic.png" alt="img">
+            <div class="testimonial__item-name-info">
+              <h4 class="testimonial__info-fname">Eleanor Pena</h4>
+              <p class="testimonial__info-job">UI/UX Designer</p>
+              <div class="testimonial__star-raing">
+                <img src="icons/magic-star.svg" alt="star">
+                <img src="icons/magic-star.svg" alt="star">
+                <img src="icons/magic-star.svg" alt="star">
+                <img src="icons/magic-star.svg" alt="star">
+                <img src="icons/magic-star.svg" alt="star">
+              </div>
+            </div>
+            <p class="testimonial__info-text">Customer testimonials are more effective than paid marketing copy as 
+              they take the spotlight 
+              away from the seller to shine it on the customers. 
+            </p>
+            <div class="testimonial__quote">
+              <img src="icons/quote-down-circle.svg" alt="quote">
+            </div>
+          </div>
+          <!-- TESTIMONIAL ITEM II -->
+          <div class="testimonial__item hidden">
+            <img class="testimonial__item-photo" src="img/testimonial-profile-pic2.png" alt="img">
+            <div class="testimonial__item-name-info">
+              <h4 class="testimonial__info-fname">Theresa Webb</h4>
+              <p class="testimonial__info-job">Vlogger</p>
+              <div class="testimonial__star-raing">
+                <img src="icons/magic-star.svg" alt="star">
+                <img src="icons/magic-star.svg" alt="star">
+                <img src="icons/magic-star.svg" alt="star">
+                <img src="icons/magic-star.svg" alt="star">
+                <img src="icons/magic-star.svg" alt="star">
+              </div>
+            </div>
+            <p class="testimonial__info-text">In promotion and advertising, 
+              a testimonial or show consists of a person's 
+              written statement extolling the virtue of a product.
+            </p>
+            <div class="testimonial__quote">
+              <img src="icons/quote-down-circle.svg" alt="quote">
+            </div>
+          </div>
+          <!-- TESTIMONIAL ITEM III -->
+          <div class="testimonial__item hidden">
+            <img class="testimonial__item-photo" src="img/testimonial-profile-pic.png" alt="img">
+            <div class="testimonial__item-name-info">
+              <h4 class="testimonial__info-fname">Annette Black </h4>
+              <p class="testimonial__info-job">Doctor</p>
+              <div class="testimonial__star-raing">
+                <img src="icons/magic-star.svg" alt="star">
+                <img src="icons/magic-star.svg" alt="star">
+                <img src="icons/magic-star.svg" alt="star">
+                <img src="icons/magic-star.svg" alt="star">
+                <img src="icons/magic-star.svg" alt="star">
+              </div>
+            </div>
+            <p class="testimonial__info-text">Testimonials work because 
+              they aren''t strong sales pitches, 
+              they come across in an unbiased voice and establish trust 
+            </p>
+            <div class="testimonial__quote">
+              <img src="icons/quote-down-circle.svg" alt="quote">
+            </div>
+          </div>
+          <button class="right-arrow"><img src="icons/arrow-right.svg" alt="icon"></button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
